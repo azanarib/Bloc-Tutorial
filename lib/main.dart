@@ -1,5 +1,5 @@
-import 'package:bloc_tutorial/Bloc/Counter/counter_bloc.dart';
-import 'package:bloc_tutorial/UI/view.dart';
+import 'package:bloc_tutorial/Bloc/Switch/switch_bloc.dart';
+import 'package:bloc_tutorial/UI/Switch/ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => CounterBloc(),
-      child: MaterialApp(title: "Counter App", home: CounterApp()),
+      create: (_) => SwitchBloc(),
+      child: MaterialApp(title: "Switch Example", home: SwitchExample()),
     );
   }
 }
