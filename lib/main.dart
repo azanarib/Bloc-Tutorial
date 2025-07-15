@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (_) => TodoAppBloc()),
         BlocProvider(create: (_) => FavouriteBloc(FavouriteRepository())),
       ],
-      child: MaterialApp(title: "Todo App", home: FavouriteAppScreen()),
+      child: MaterialApp(title: "Favourite App", home: FavouriteAppScreen()),
     );
   }
 }
