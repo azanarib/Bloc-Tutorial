@@ -7,29 +7,27 @@ abstract class FavouriteAppEvents extends Equatable {
   List<Object?> get props => [];
 }
 
+// Events
 class FetchFavouriteItemListEvents extends FavouriteAppEvents {}
 
+// Events
 class FavouriteItemsEvents extends FavouriteAppEvents {
-  
   final FavouriteItemModels items;
-  
+
   const FavouriteItemsEvents({required this.items});
 }
 
+// Events
 class SelectItems extends FavouriteAppEvents {
-
   final FavouriteItemModels items;
-
   const SelectItems({required this.items});
 }
 
+// Events
 class UnSelectItems extends FavouriteAppEvents {
- 
   final FavouriteItemModels item;
- 
   const UnSelectItems({required this.item});
 }
 
-class DeleteItemsEvents extends FavouriteAppEvents {
-  
-}
+// Events
+class DeleteItemsEvents extends FavouriteAppEvents {}
