@@ -3,7 +3,6 @@ import 'package:bloc_tutorial/Bloc/Favourite/favourite_events.dart';
 import 'package:bloc_tutorial/Bloc/Favourite/favourite_state.dart';
 import 'package:bloc_tutorial/Bloc/Models/favourite_items_model.dart';
 import 'package:bloc_tutorial/UI/Favourite_App_Screen/Widget/delete_button_widget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
