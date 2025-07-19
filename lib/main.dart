@@ -4,7 +4,6 @@ import 'package:bloc_tutorial/Bloc/Post/post_bloc.dart';
 import 'package:bloc_tutorial/Bloc/Repo/favourite_repo.dart';
 import 'package:bloc_tutorial/Bloc/Switch/switch_bloc.dart';
 import 'package:bloc_tutorial/Bloc/Todo/todo_bloc.dart';
-import 'package:bloc_tutorial/UI/CounterScreen/view.dart';
 import 'package:bloc_tutorial/UI/Login/login_screen.dart';
 import 'package:bloc_tutorial/Utils/image_picker_utils.dart';
 import 'package:flutter/material.dart';
