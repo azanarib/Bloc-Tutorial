@@ -39,11 +39,7 @@ class _FavouriteAppScreenState extends State<FavouriteAppScreen> {
           foregroundColor: Colors.white,
           title: Center(child: Text("F A V O U R I T E   A P P ")),
           actions: [
-            BlocBuilder<FavouriteBloc, FavouriteItemsState>(
-              builder: (context, state) {
-                return DeleteButtonWidget();
-              },
-            ),
+            DeleteButtonWidget(),
           ],
         ),
         body: Padding(
